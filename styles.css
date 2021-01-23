@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+}
+.content img{
+    background-position: center;
+    float: right;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+#list{
+    max-width: 200px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    color: whitesmoke;
+    font-weight: bold;
+}
+a:hover, a:active{
+    font-weight: bolder;
+    color: white;
+}
+.search input{
+    margin-right: 20px;
+}
+.content h1{
+    text-transform: uppercase;
+}
+.content h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.content{
+    color: white;
+    text-indent: 10px;
+}
+.content .total-sum{
+    padding-top: 100px;
+    line-height: 30px;
+}
+.total-sum button{
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition:all 0.3s ease-in-out;
+    text-transform: uppercase;
+
+}
+.total-sum button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: transparent;
+}
